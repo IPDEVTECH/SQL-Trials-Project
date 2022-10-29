@@ -25,13 +25,6 @@ Route::get('login', [App\Http\Controllers\Auth\LoginController::class, 'index'])
 Route::get('login/{driverProvider}', [App\Http\Controllers\Auth\LoginController::class, 'redirectToProvider'])->name('social.login');
 Route::get('login/{driverProvider}/callback', [App\Http\Controllers\Auth\LoginController::class, 'handleProviderCallback'])->name('social.callback');
 Route::get('/register', [App\Http\Controllers\Auth\RegisterController::class, 'index'])->name('register.page');
-<<<<<<< Updated upstream
 
 Route::get('/auth/resetPassword', [App\Http\Controllers\Auth\ResetPasswordController::class, 'index'])->name('resetPassword.page');
-=======
-<<<<<<< HEAD
-=======
 
-Route::get('/auth/resetPassword', [App\Http\Controllers\Auth\ResetPasswordController::class, 'index'])->name('resetPassword.page');
->>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
->>>>>>> Stashed changes
