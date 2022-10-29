@@ -8,7 +8,16 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 body, html {
+=======
+body,
+html {
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -45,7 +54,20 @@ a:focus {
 }
 
 
+<<<<<<< HEAD
 h1, h2, h3, h4, h5, h6 {
+=======
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
     margin: 0px;
 }
 
@@ -57,11 +79,33 @@ p {
     margin: 0px;
 }
 
+<<<<<<< HEAD
 ul, li {
+=======
+ul,
+li {
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
     margin: 0px;
     list-style-type: none;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 .containerLR {
     width: 100%;
     min-height: 100vh;
@@ -74,21 +118,47 @@ ul, li {
     justify-content: center;
     align-items: center;
     padding: 15px;
+<<<<<<< HEAD
     background-image: url('/public/img/capa-fundo-login-register.png');
+=======
+    background-image: url('img/capa-fundo-login-register.png');
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 
+<<<<<<< HEAD
 /*[FORMATAÇÃO DO BOTÃO]*/
 .btnLR {
+=======
+
+/*[FORMATAÇÃO DO BOTÃO]*/
+.btnLR {
+    float: right; 
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 1.5;
     color: #fff;
     text-transform: uppercase;
+<<<<<<< HEAD
 
+=======
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
     width: 100%;
     height: 50px;
     border-radius: 25px;
@@ -100,18 +170,99 @@ ul, li {
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     padding: 0 25px;
 
+=======
+    padding: 11px 21px; 
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
 }
 
+<<<<<<< HEAD
+=======
+.btna{
+    text-decoration: none;
+    float: right; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #134a74;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 21px; 
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.btnLR2{
+    float: right;
+    margin: 10px;
+    border-radius: 25px;
+    padding: 15px 29px;
+    vertical-align: middle;
+    background: #134a74;
+    color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.floatLeft {
+    float: left;
+}
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 .btnLR:hover {
     background: #57b6ff;
 }
 
+<<<<<<< HEAD
+=======
+.btna:hover {
+    background: #57b6ff;
+}
+
+.btnLR2:hover {
+    background: #57b6ff;
+}
+
+
+
+
+
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 .subcontainerLR {
     width: 960px;
     background: #082338;
@@ -128,6 +279,35 @@ ul, li {
     padding: 33px 130px 33px 95px;
 }
 
+<<<<<<< HEAD
+=======
+.subcontainerLRR {
+    /*width: 960px;*/
+    background: #082338;
+    opacity: 0.9;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 33px 22px 33px 22px;
+}
+
+
+
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 /*[ IMAGEM ]*/
 .imgL {
     width: 316px;
@@ -146,6 +326,21 @@ ul, li {
     max-width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 /*[ TÍTULO ]*/
 .titleLR {
     font-family: 'Roboto', sans-serif;
@@ -158,6 +353,22 @@ ul, li {
     padding-bottom: 25px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 /*[ INPUTS ]*/
 .inputcontainer {
     position: relative;
@@ -166,6 +377,18 @@ ul, li {
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 /*[ Input + Focus ]*/
 .input100 {
     font-family: 'Poppins', sans-serif;
@@ -181,11 +404,28 @@ ul, li {
     padding: 0 30px 0 68px;
 }
 
+<<<<<<< HEAD
 .input100:focus + .focus-input100 + .symbol-input100 {
+=======
+
+.input100:focus+.focus-input100+.symbol-input100 {
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
     color: #082338;
     padding-left: 28px;
 }
 
+<<<<<<< HEAD
+=======
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 .focus-input100 {
     display: block;
     position: absolute;
@@ -198,11 +438,27 @@ ul, li {
     color: rgba(#082338);
 }
 
+<<<<<<< HEAD
 .input100:focus + .focus-input100 {
+=======
+.input100:focus+.focus-input100 {
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
     -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
     animation: anim-shadow 0.5s ease-in-out forwards;
 }
 
+<<<<<<< HEAD
+=======
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 .symbol-input100 {
     font-size: 15px;
 
@@ -228,10 +484,34 @@ ul, li {
     transition: all 0.4s;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 .formLR {
     width: 290px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 /*[ checkbox ALUNO/PROFESSOR]*/
 .checkbox {
     height: 80px;
@@ -284,12 +564,31 @@ input:checked:before {
     color: #bfbfbf;
 }
 
+<<<<<<< HEAD
 input:checked ~ .text:before {
+=======
+input:checked~.text:before {
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
     color: #664AFF;
     font-size: 27px;
     content: "Professor";
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 .p-t-12 {
     padding-top: 12px;
 }
@@ -302,6 +601,20 @@ input:checked ~ .text:before {
     text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 /*[ login social ]*/
 .loginsocial {
     text-align: center;
@@ -369,6 +682,25 @@ input:checked ~ .text:before {
     margin-right: 17px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 .esqsenha {
     font-family: Poppins-Regular;
     font-size: 13px;
@@ -398,6 +730,23 @@ input:checked ~ .text:before {
     color: #57b6ff;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes
 /*[ Responsive ]*/
 @media (max-width: 992px) {
     .subcontainerLR {
@@ -433,4 +782,12 @@ input:checked ~ .text:before {
     .subcontainerLR {
         padding: 26px 15px 33px 15px;
     }
+<<<<<<< HEAD
 }
+=======
+}
+<<<<<<< Updated upstream
+>>>>>>> hotfix-temp
+=======
+>>>>>>> bcccffb1e3d3649b704507718fbed3d5dc385b78
+>>>>>>> Stashed changes

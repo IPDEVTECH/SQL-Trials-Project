@@ -24,12 +24,13 @@
             <img src="{{ asset('img/capa-login.png') }}" alt="IMG">
         </div>
 
-        <div class="formLR">
+        <form class="formLR">
             <div class="inputcontainer" data-validate="Valid email is required: ex@abc.xyz">
                 <input class="input100" type="text" name="email" placeholder="Email">
                 <span class="focus-input100"></span>
                 <span class="symbol-input100">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                     <i class="fa fa-envelope" aria-hidden="true"></i>
+
                 </span>
             </div>
 
@@ -52,7 +53,7 @@
             <button class="btnLR">Entrar</button>
 
             <div class="text-center p-t-12">
-                <span class="esqsenha">Esqueceu a</span><a class="esqsenha" href="{{ route('password.request') }}"> Senha?</a>
+                <span class="esqsenha">Esqueceu a</span><a class="esqsenha" href="{{ route('resetPassword.page') }}"> Senha?</a>
             </div>
 
 
@@ -74,7 +75,7 @@
                     <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
                 </a>
             </div>
-        </div>
+</form>
     </div>
 </div>
 </body>
