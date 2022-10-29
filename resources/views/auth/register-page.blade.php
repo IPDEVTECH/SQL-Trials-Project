@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+
+=======
+>>>>>>> hotfix-temp
+=======
+>>>>>>> Stashed changes
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,7 +33,9 @@
                 <img src="{{ asset('img/capa-register.png') }}" alt="IMG">
             </div>
 
-            <div class="formLR">
+
+        <div class="form">
+            <form class="formLR">
                 <div class="inputcontainer">
                     <input class="input100" type="text" name="text" placeholder="Primeiro nome">
                     <span class="focus-input100"></span>
@@ -62,13 +71,13 @@
                     <span class="focus-input100"></span>
                     <span class="symbol-input100"><i class="fa fa-lock" aria-hidden="true"></i></span>
                 </div>
-
+            </form>
                 <button class="btnLR" onclick="openCity('page2')">PROXIMO</button>
 
                 <div class="text-center p-t-136">
                     <a class="login" href="{{ route('login.page') }}">Fazer login</a>
                 </div>
-            </div>
+             </div>
         </div>
     </div>
 </div>
@@ -97,7 +106,8 @@
                 <img src="img/capa-register.png" alt="IMG">
             </div>
 
-            <div class="formLR">
+        <div class="form">
+            <form class="formLR">
                 <div class="inputcontainer">
                     <input class="input100" data-input name="cep" id="cep" placeholder="CEP" maxlength="8" minlength="8" required>
                     <span class="focus-input100"></span>
@@ -168,14 +178,19 @@
                         <option value="TO">Tocantins</option>
                     </datalist>
                 </div>
-
+                </form>
                 <div class="checkbox">
                     <input type="checkbox" id="click">
                     <label for="click" class="text"></label>
                 </div>
 
-                <button class="btnLR" onclick="openCity('page1')">CONFIRMAR</button>
-            </div>
+                <div>
+							<div>
+								<button class="btnLR2 floatLeft" onclick="openCity('page1')">VOLTAR</button>
+							<div>
+								<button class="btnLR2 floatLeft" onclick="openCity('')">CADASTRAR</button>
+						</div>
+        </div>
         </div>
     </div>
 </div>
