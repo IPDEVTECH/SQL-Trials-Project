@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -16,68 +16,65 @@
 </head>
 
 <body>
-<div class="containerLR" style="background-image: url({{ asset('img/capa-fundo-login-register.png') }});">
-    <div class="subcontainerLR">
-        <span class="titleLR">Olá! Seja bem vindo</span>
+    <div class="containerLR" style="background-image: url({{ asset('img/capa-fundo-login-register.png') }});">
+        <div class="subcontainerLR">
+            <span class="titleLR">Olá! Seja bem vindo</span>
 
-        <div class="imgL">
-            <img src="{{ asset('img/capa-login.png') }}" alt="IMG">
+            <div class="imgL">
+                <img src="{{ asset('img/capa-login.png') }}" alt="IMG">
+            </div>
+
+            <form class="formLR">
+                <div class="inputcontainer" data-validate="Valid email is required: ex@abc.xyz">
+                    <input class="input100" type="text" name="email" placeholder="Email">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div class="inputcontainer" data-validate="Password is required">
+                    <input class="input100" type="password" name="pass" placeholder="Password">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                    </span>
+                </div>
+
+                <div class="inputcontainer">
+                    <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+
+                    <label class="button__text" for="remember">
+                        Manter Conectado
+                    </label>
+                </div>
+
+                <button class="btnLR">Entrar</button>
+
+                <div class="text-center p-t-12">
+                    <span class="esqsenha">Esqueceu a</span><a class="esqsenha" href="{{ route('resetPassword.page') }}"> Senha?</a>
+                </div>
+
+                <div class="loginsocial">
+                    <div type="button" class="button" id="buttongoogle">
+                        <a class="button__text" href="{{ route('social.login', ['driverProvider' => 'google']) }}"><i class="fab fa-google fa-3x" id="fa-google"></i>Entrar com Google</a>
+                    </div>
+                    <div type="button" class="button" id="buttongithub">
+                        <a class="button__text" href="{{ route('social.login', ['driverProvider' => 'github']) }}"><i class="fab fa-github"></i>Entrar com GitHub</a>
+                    </div>
+                    <div type="button" class="button" id="buttonlinkedin">
+                        <a class="button__text" href="{{ route('social.login', ['driverProvider' => 'facebook']) }}"><i class="fab fa-facebook-f"></i>Entrar com Facebook</a>
+                    </div>
+                </div>
+
+                <div class="text-center p-t-136">
+                    <a class="login" href="{{ route('register.page') }}">Criar conta
+                        <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </form>
         </div>
-
-        <form class="formLR">
-            <div class="inputcontainer" data-validate="Valid email is required: ex@abc.xyz">
-                <input class="input100" type="text" name="email" placeholder="Email">
-                <span class="focus-input100"></span>
-                <span class="symbol-input100">
-                     <i class="fa fa-envelope" aria-hidden="true"></i>
-
-                </span>
-            </div>
-
-            <div class="inputcontainer" data-validate="Password is required">
-                <input class="input100" type="password" name="pass" placeholder="Password">
-                <span class="focus-input100"></span>
-                <span class="symbol-input100">
-                    <i class="fa fa-lock" aria-hidden="true"></i>
-                </span>
-            </div>
-
-            <div class="inputcontainer">
-                <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
-
-                <label class="button__text" for="remember">
-                    Manter Conectado
-                </label>
-            </div>
-
-            <button class="btnLR">Entrar</button>
-
-            <div class="text-center p-t-12">
-                <span class="esqsenha">Esqueceu a</span><a class="esqsenha" href="{{ route('resetPassword.page') }}"> Senha?</a>
-            </div>
-
-
-            <div class="loginsocial">
-                <div type="button" class="button" id="buttongoogle">
-                    <a class="button__text" href="{{ route('social.login', ['driverProvider' => 'google']) }}"><i class="fab fa-google fa-3x" id="fa-google"></i>Entrar com Google</a>
-                </div>
-                <div type="button" class="button" id="buttongithub">
-                    <a class="button__text" href="{{ route('social.login', ['driverProvider' => 'github']) }}"><i class="fab fa-github"></i>Entrar com GitHub</a>
-                </div>
-                <div type="button" class="button" id="buttonlinkedin">
-                    <a class="button__text" href="{{ route('social.login', ['driverProvider' => 'facebook']) }}"><i class="fab fa-facebook-f"></i>Entrar com Facebook</a>
-                </div>
-            </div>
-
-
-            <div class="text-center p-t-136">
-                <a class="login" href="{{ route('register.page') }}">Criar conta
-                    <i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
-                </a>
-            </div>
-</form>
     </div>
-</div>
 </body>
 
 </html>
