@@ -167,6 +167,7 @@ return [
          */
         OwenIt\Auditing\AuditingServiceProvider::class,
         Jrean\UserVerification\UserVerificationServiceProvider::class,
+        Spatie\Permission\PermissionServiceProvider::class,
 
         /*
          * Application Service Providers...
